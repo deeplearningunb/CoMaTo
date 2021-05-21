@@ -1,4 +1,6 @@
-tensorflow
-keras
+numpy==1.16.2
+pandas==0.24.2
+matplotlib==3.0.3
+tensorflow==2.3.1
 pillow
-numpy
+keras==2.4.3
