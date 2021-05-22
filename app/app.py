@@ -58,9 +58,7 @@ class App():
         return lbl
 
     # Functions
-
     def change_images(self, option):
-        print(self.selected_option.get())
         self.photo = ImageTk.PhotoImage(Image.open(
             self.absolute_path(option.lower())))
         self.imagem['image'] = self.photo
