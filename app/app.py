@@ -65,7 +65,7 @@ class App():
         if(self.file):
             self.photo = ImageTk.PhotoImage(Image.open(f"{self.file.name}"))
             self.imagem['image'] = self.photo
-            pred, pred_percentage = prediction.Prediction(self.file.name, plant_list[self.selected_option.get()]).test_single_image()
+            pred, pred_percentage = prediction.Prediction(self.file.name, plant_list[self.selected_option.get()]).predict()
             self.predict_message['text'] = f"Resposta: {pred}\nProbabilidade: {pred_percentage}"
 
     def absolute_path(self, img_name):
