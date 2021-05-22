@@ -25,7 +25,7 @@ A interface de usuário foi desenvolvida utilizando a biblioteca Tkinter.
 
 1º Passo: Clonar repositório
 
-`git clone https://github.com/deeplearningunb/plant-disease/`
+`git clone https://github.com/deeplearningunb/CoMaTo/`
 
 2º Passo: Instalar dependência (Necessário python 3.x)
 

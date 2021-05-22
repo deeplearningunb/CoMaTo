@@ -5,6 +5,7 @@ import numpy as np
 
 class Prediction():
     def __init__(self, image_file, plant):
+        print(plant.get('model_name'))
         self.image_pred = image_file
         self.categories = plant.get("categories")
         self.cnn = load_model(f'model/{plant.get("model_name")}')
